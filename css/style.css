@@ -1,13 +1,5 @@
 /* Custom Stylesheet */
 
-
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
 nav ul a,
 nav .brand-logo {
     color: orangered;
@@ -32,6 +24,26 @@ p {
     width: 100%;
 }
 
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+
+/* Footer */
+
+footer.page-footer {
+    margin: 0;
+    height: 225px;
+    display: inline-grid;
+}
+
+
+/* Media Queries */
+
 @media only screen and (max-width: 992px) {
     .parallax-container .section {
         position: absolute;
@@ -46,16 +58,4 @@ p {
     #index-banner .section {
         top: 0;
     }
-}
-
-.icon-block {
-    padding: 0 15px;
-}
-
-.icon-block .material-icons {
-    font-size: inherit;
-}
-
-footer.page-footer {
-    margin: 0;
 }
