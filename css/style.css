@@ -2,15 +2,32 @@
 
 nav ul a,
 nav .brand-logo {
-    color: orangered;
+    color: deepskyblue;
 }
 
 p {
     line-height: 2rem;
 }
 
+.header {
+    color: deepskyblue;
+    font-family: 'Ceviche One', cursive;
+    font-size: 75px;
+}
+
 .button-collapse {
-    color: orangered;
+    color: deepskyblue;
+}
+
+.modal-trigger {
+    color: white;
+    background-color: deepskyblue;
+    margin-left: 37%;
+}
+
+.leanModal {
+    background-color: dodgerblue;
+    color: whitesmoke;
 }
 
 .parallax-container {
@@ -37,8 +54,11 @@ p {
 
 footer.page-footer {
     margin: 0;
-    height: 225px;
-    display: inline-grid;
+    height: 220px;
+}
+
+.fa {
+    color: lightgray;
 }
 
 
